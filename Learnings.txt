@@ -1,0 +1,54 @@
+#Bootstrap Learnings 
+
+
+Bootstrap needs a container class or a container-fluid class.
+A container class proveds a responsive fixed width container while container-fluid provides a full width container. There are not nestible. So basically, one with the fluid is going to be much better when someone can move your browser in various lengths and breadths.
+
+Grids:
+Upto 12 columns are allowed across the page. They can be grouped etc. 
+
+Following are the classes:
+xs for phones
+sm for tablets
+md for desktops
+lg for large desktops, like my iMac
+
+
+Use for example : .col-sm-4 for column taking 4 parts of the grid, 8 for 8 parts, these grids are out of 12 possible grids.
+All of the below are classes btw , use them with ".className"
+
+<small> used to create lighter secondary text in addition to <h1> - <h6>
+
+<mark> is used to highlight a text
+
+<abbr> used to dotted undeline something
+
+<blockquote> used for creating shadow kind of a thing of left /right side of the text. <blockquote-reverse> I will probably use this to maybe take recommendations/testimonials from people I have worked with and display it on the website.
+
+<dl> makes a description list, more like what <ul> does, but this is more interesting than that for sure!
+
+<code> is what I have been looking for a long time, this is frikking hot. Remember how people write codes on famous website, it appears so cool there, it has a similar function here. Add all the code between <code></code>
+
+<kbd> could be used for buttons, markers, something like that
+
+<pre> adds line breaks to  the HTML
+
+Contextual colors may be added using various tags like bg-primary/success/info/warning/danger etc. and it looks brilliant. Not kidding.
+More on typography here: http://www.w3schools.com/bootstrap/bootstrap_typography.asp 
+
+<pre-scrollable> Can be used to make a long article/code etc to be at a max-heigh of 350px with a scroll bar on the y axis side. Intersting right?
+
+<list-inline> puts all the elements in <ul> side by side. Love it now.
+
+<thumbnail> this class
+
+<jumbotron> makes everythin stand out, beautifully!
+  <div class="page-header">
+    <h1>Example Page Header</h1>      
+  </div>
+
+
+
+
+
+#This is next http://masonry.desandro.com/
