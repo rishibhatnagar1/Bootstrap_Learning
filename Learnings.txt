@@ -48,7 +48,11 @@ More on typography here: http://www.w3schools.com/bootstrap/bootstrap_typography
   </div>
 
 
+  Some really beautiful buttons on bootstrap. Check out the website on w3schools for that.
+
+Use "carousel slide" to make some simple image slide shows etc.
 
 
 
-#This is next http://masonry.desandro.com/
+#This is next http://masonry.desandro.com/ like this theme : http://www.blacktie.co/2013/11/small-dribbble-portfolio-theme/
+and rhis one too : http://www.blacktie.co/2013/10/kelvin-resume-theme/
