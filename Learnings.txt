@@ -56,3 +56,24 @@ Use "carousel slide" to make some simple image slide shows etc.
 
 #This is next http://masonry.desandro.com/ like this theme : http://www.blacktie.co/2013/11/small-dribbble-portfolio-theme/
 and rhis one too : http://www.blacktie.co/2013/10/kelvin-resume-theme/
+
+###############################################################################################################
+
+While setting up a front end for the project you are working on, the positions of the content/buttons is going to be very important. How to make that work is by using the simple technique, mind you this is not the best technique out there but it work. 
+Define a row like this: 
+<div class = "row"></div>
+
+Now that we have a row, define how long do you want your column to be to insert the content. I just wanted it to be in the center of the page and here is what I did for that.
+        <div class="row" id="timeofFood">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <button type="button" class="btn btn-primary btn-lg" id="breakfast">Break Fast</button>
+                <button type="button" class="btn btn-primary btn-lg" id="lunch">Lunch</button>
+                <button type="button" class="btn btn-primary btn-lg" id="eveningSnacks">Snacks</button>
+
+            </div>
+
+ --4 column space-----Space for content with lenght 4 columns --- 4 column space on the right 
+
+ ## Also, you can give an id and a class to the same div, like I have done above.
+
